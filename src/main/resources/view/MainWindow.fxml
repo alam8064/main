@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.layout.*?>
-<?import javafx.stage.*?>
-
-<fx:root minHeight="600.0" minWidth="600.0" onCloseRequest="#handleExit" title="JelphaBot" type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.Scene?>
+<?import javafx.stage.Stage?>
+<?import java.net.URL?>
+<fx:root minHeight="600.0" minWidth="400.0" onCloseRequest="#handleExit" title="JelphaBot" type="javafx.stage.Stage"
+         xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
     <icons>
         <Image url="@/images/jelphabot.png" />
     </icons>
     <scene>
         <Scene>
             <stylesheets>
-                <URL value="@JelphaBotTheme.css" />
-                <URL value="@Extensions.css" />
+                <URL value="@JelphaBotTheme.css"/>
+                <URL value="@Extensions.css"/>
             </stylesheets>
 
-            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0">
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="550.0"
+                  prefWidth="650.0">
                 <MenuBar fx:id="menuBar" maxHeight="-Infinity" VBox.vgrow="NEVER">
                     <Menu mnemonicParsing="false" text="File">
-                        <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit"/>
                     </Menu>
                     <Menu mnemonicParsing="false" text="Help">
                         <items>
-                            <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" onAction="#handleHelp" text="Help" />
+                            <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" onAction="#handleHelp" text="Help"/>
                         </items>
                     </Menu>
                 </MenuBar>
@@ -106,8 +107,7 @@
                     </tabs>
                 </TabPane>
 
-                <StackPane fx:id="resultDisplayPlaceholder" maxHeight="300.0" minHeight="100" prefHeight="135"
-                           prefWidth="600.0" styleClass="result-pane-with-border" VBox.vgrow="SOMETIMES">
+                <StackPane fx:id="resultDisplayPlaceholder" maxHeight="300.0" minHeight="100" prefHeight="135" prefWidth="600.0" styleClass="result-pane-with-border" VBox.vgrow="SOMETIMES">
                     <padding>
                         <Insets bottom="5" left="10" right="10" top="5" />
                     </padding>

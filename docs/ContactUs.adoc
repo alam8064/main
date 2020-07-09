@@ -2,12 +2,12 @@
 :site-section: ContactUs
 :stylesDir: stylesheets
 
-* *Bug reports, Suggestions* : Post in our https://github.com/AY1920S2-CS2103T-F09-2/main/issues[issue tracker] if you noticed bugs or have suggestions on how to improve.
+* *Bug reports, Suggestions* : Post in our https://github.com/AY1920S2-CS2103T-F09-2/main/issues[issue tracker] if you notice bugs or have suggestions on how to improve.
 * *Contributing* : We welcome pull requests. Follow the process described https://github.com/oss-generic/process[here]
 * *Email us* : You can also reach us at:
 ** Thng Yao Jie: thngyaojie@u.nus.edu
+** Jel Lim: jel.lim@u.nus.edu
 ** Amanda Lam: e0323403@u.nus.edu
 ** Eden Ong: eden.ong@u.nus.edu
-** Jel Lim: jel.lim@u.nus.edu
 ** Yap Dian Hao: dian_hap_yao@u.nus.edu
 

@@ -3,12 +3,12 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.text.Font?>
-
-<TitledPane fx:id="category" maxWidth="1.7976931348623157E308" stylesheets="@NewTheme.css" text="Group Title" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <content>
-      <ListView fx:id="groupingList" maxWidth="1.7976931348623157E308" stylesheets="@NewTheme.css" />
-   </content>
-   <font>
-      <Font name="Arial" size="16.0" />
-   </font>
+<TitledPane xmlns:fx="http://javafx.com/fxml/1" fx:id="category" maxWidth="1.7976931348623157E308"
+            stylesheets="@NewTheme.css" text="Group Title" xmlns="http://javafx.com/javafx/11">
+    <content>
+        <ListView fx:id="groupingList" maxWidth="1.7976931348623157E308" stylesheets="@NewTheme.css"/>
+    </content>
+    <font>
+        <Font name="Arial" size="16.0"/>
+    </font>
 </TitledPane>

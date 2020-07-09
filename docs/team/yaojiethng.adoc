@@ -33,6 +33,9 @@ This feature improves the task management process significantly because it allow
 *** As all other features use `Task` as the underlying Model entity, there was high coupling with features implemented by other groupmates.
 *** This enhancement affected existing commands as `GroupedTaskList` listed showed tasks in a different order from the underlying list stored in the model, and this order would vary depending on the `Category` displayed.
 *** It required model objects to be queried from the displayed index in `Ui` instead of the the default order in `Model` (which was the order in which objects were implemented).
++
+<<<
++
 *** The implementation was challenging as it required changes to be made to existing commands while still reducing conflict with other teammates' work.
 This required many design alternatives to be considered.
 *** All non-User-Interface classes added were backed up with tests.
@@ -47,7 +50,6 @@ https://github.com/AY1920S2-CS2103T-F09-2/main/pull/219[#219],
 https://github.com/AY1920S2-CS2103T-F09-2/main/pull/228[#228],
 https://github.com/AY1920S2-CS2103T-F09-2/main/pull/298[#298],
 
-<<<
 * *Minor enhancement*: Updated the Ui layout for each Task to allow tasks to be distinguished by priority.
 ** Pull requests:
 https://github.com/AY1920S2-CS2103T-F09-2/main/pull/196[#196],
